@@ -4,11 +4,11 @@ body {
     padding: 20px;
    background-image: linear-gradient(
     to bottom right,
-    #5c2e91, /* Um roxo profundo Borahae no topo esquerdo */
-    #a881c9  /* Um lavanda mais suave no canto inferior direito */
+    #5c2e91, 
+    #a881c9  
   );
 
-  /* Garante que o fundo cubra toda a tela */
+  
   background-attachment: fixed;
   background-size: cover;
 }
@@ -127,26 +127,13 @@ h2{
   object-fit: cover;
   border-radius: 10px;
 }
-/* Localize seu container de fotos e substitua por este: */
+
 .container {
-    /* 1. Mantenha o fundo branco por segurança */
     background-color: #ffffff;
-    
-    /* 2. Caminho limpo para a imagem fora da pasta (já funcionando) */
-    background-image: url('fundo-bts.png'); 
-    
-    /* 3. MUDANÇAS PARA VISIBILIDADE E TAMANHO: */
-    /* Garante que ela se repita */
+    background-image: url('fundo-bts.png')
     background-repeat: repeat;
-    
-    /* Centraliza o padrão */
     background-position: center;
-    
-    /* AUMENTA O TAMANHO DO LOGO: mudei de 200px para 350px. */
-    /* Aumente esse número se quiser ainda maior! */
     background-size: 600px; 
-    
-    /* 4. Mantenha as bordas arredondadas e o overflow */
     border-radius: 15px;
     padding: 20px;
     display: flex;
@@ -155,7 +142,7 @@ h2{
     gap: 20px;
     overflow: hidden;
     position: relative;
-    z-index: 1; /* Garante que tudo fique acima */
+    z-index: 1; /
 }
     
 
