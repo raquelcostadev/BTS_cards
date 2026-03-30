@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: wheat;
+    padding: 20px;
+   background-image: linear-gradient(
+    to bottom right,
+    #5c2e91, /* Um roxo profundo Borahae no topo esquerdo */
+    #a881c9  /* Um lavanda mais suave no canto inferior direito */
+  );
+
+  /* Garante que o fundo cubra toda a tela */
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+section {
+    color: rgb(13, 173, 247);
+    border-radius: 70px;
+    bottom: 20px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family:  'Playfair Display', serif;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    color: black;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+.card {
+  width: 200px;
+  padding: 10px;
+}
+.card img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+ background-image: url("./img_fundo/fundo-bts.png");
+}
+
+
+
+
+.musicas {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  
+}
+
+.musicas li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.musicas li:hover {
+  background-color: #f5f5f5;
+  transform: scale(1.02);
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+
+}
+
+.musicas-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.musica-card {
+  width: 250px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  transition: 0.3s;
+}
+.musica-card:hover {
+  transform: scale(1.05);
+}
+.musica-card h3 {
+  margin-bottom: 10px;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+
+}
+
+.musica-card p {
+  font-size: 14px;
+  color: #555;
+}
+.musica-card img{
+   width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* Localize seu container de fotos e substitua por este: */
+.container {
+    /* 1. Mantenha o fundo branco por segurança */
+    background-color: #ffffff;
+    
+    /* 2. Caminho limpo para a imagem fora da pasta (já funcionando) */
+    background-image: url('fundo-bts.png'); 
+    
+    /* 3. MUDANÇAS PARA VISIBILIDADE E TAMANHO: */
+    /* Garante que ela se repita */
+    background-repeat: repeat;
+    
+    /* Centraliza o padrão */
+    background-position: center;
+    
+    /* AUMENTA O TAMANHO DO LOGO: mudei de 200px para 350px. */
+    /* Aumente esse número se quiser ainda maior! */
+    background-size: 600px; 
+    
+    /* 4. Mantenha as bordas arredondadas e o overflow */
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1; /* Garante que tudo fique acima */
+}
+    
+
+
+  
+  
