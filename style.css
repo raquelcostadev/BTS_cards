@@ -6,8 +6,11 @@ body {
     to bottom right,
     #5c2e91, 
     #a881c9  
+    #5c2e91, 
+    #a881c9  
   );
 
+  
   
   background-attachment: fixed;
   background-size: cover;
@@ -127,6 +130,7 @@ h2{
   object-fit: cover;
   border-radius: 10px;
 }
+
 
 .container {
     background-color: #ffffff;
